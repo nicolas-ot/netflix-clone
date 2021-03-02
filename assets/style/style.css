@@ -243,3 +243,57 @@ button i {
     text-align: center;
     font-size: 18px;
 }
+
+.textboxContainer {
+    padding: 100px 50px;
+}
+
+.searchInput {
+    height: 50px;
+    width: 600px;
+    border: 1px solid #dedede;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.settingsContainer {
+    padding-top: 60px;
+    background-color: transparent;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.settingsContainer h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.settingsContainer .formSection {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 20px;
+}
+
+.settingsContainer form input[type="text"],
+.settingsContainer form input[type="email"],
+.settingsContainer form input[type="password"] {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px 0;
+    border-radius: 3px;
+    padding: 0px 10px;
+    border: none;
+}
+
+.settingsContainer form input[type="submit"] {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+}
